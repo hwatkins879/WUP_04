@@ -47,6 +47,12 @@ It is evident from the box plot that there is a considerable disparity between t
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+favstats(WORDSUM~DEGREE,data=GSScsv)
+```
+Graduate has a Q1 of 10, whereas LT High School's Q3 is 8.25 and OG High School's Q3 is 9, despite OG High School's large enrollment of 85 students. This is significant because the proportion of those enrolled in high school nearly equals the total number of individuals enrolled in all other degrees, indicating a significant disparity in these statistics. 
+
+
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
