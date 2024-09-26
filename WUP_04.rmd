@@ -71,6 +71,10 @@ plot(TukeyHSD(model1, conf.level=0.98),las=2)
 
 
 This graph makes this disparity clear because the values for the LT high school graduate and the high school graduate are both below 0, indicating a considerable difference between the two degrees.
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+Only when we could clearly see a difference in the GRADUATE's degree from the HIGH SCHOOL DEGREE and the LT HIGH SCHOOL DEGREE did we find a relationship in the data. To properly understand this, we looked at the data, which indicated that there was a difference: the graduate's Q1 was 10, the LT High School's Q3 was 8.25, and the HIGH SCHOOL's Q3 was 9. This was demonstrated by the one-way ANOVA, which had a p-value of 0.000236 and indicated that something was occurring. We were able to identify a substantial difference between two levels in this data—the HIGH SCHOOL and LT HIGH SCHOOL—because they are both below 0. This was achieved after some tinkering with the code.
+
